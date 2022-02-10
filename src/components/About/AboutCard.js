@@ -7,30 +7,29 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Sunil Yadav </span>
-            from <span className="purple"> Lucknow, India.</span>
+            Hi Everyone, I am <span className="purple">Brandon Hawkins </span>
+            from <span className="purple"> Charlotte, North Carolina.</span>
             <br />
-            Software Engineer who loves to transform ideas into reality using
-            code.
+             I am a Software Engineer with a passion for creating applications from ideas. 
             <br />
-            Motivated designer and developer with experience creating
-            custom websites with ReactJs, JavaScript, HTML5, CSS3. Shopify app using ReactJs, Javascript, Polaris, Graphql, nodejs, Koajs
-            and Mobile App using React-native.
+             I am a former Middle School Orchestra teacher. After teaching online and seeing a shortage of software that can help teachers, I decided to do something about it. I began developing an application to help me solve my problem of organizing songs, students, and sets into logical catagories based on instruments needed and difficulty. This application is still in development, but please take a look at it in the projects page :)
             <br />
-            Apart from coding, some other activities that I love to do!
+
+            <br />
+            Apart from coding here are some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Play Music
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Play Video Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Play with my dog :)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies
+              <ImPointRight /> Watch Netflix
             </li>
           </ul>
         </blockquote>

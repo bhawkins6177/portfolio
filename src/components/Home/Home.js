@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/sunil.jpg";
+import myImg from "../../Assets/profilePic.jpeg";
 import SocialMedia from "../SocialMedia";
 import TypeWriter from "./TypeWriter";
 
@@ -19,15 +19,12 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> Sunil Yadav</strong>
+                My name is 
+                <strong className="main-name"> Brandon Hawkins </strong>
               </h1>
 
               <p className="heading-description blockquote">
-                I am passionate about using Javascript and Animation Libraries
-                to create awesome user experiences. With over five years of
-                experience developing web applications using the latest
-                front-end and back-end technologies.
+               I am a recovering Middle School teacher with a passion for creating easy to use and scalable applications. 
               </p>
 
               <div className="heading-type">
@@ -48,8 +45,7 @@ function Home() {
               <h1>Get in Touch</h1>
               <p>
                 {" "}
-                Whether you want to get in touch, or talk about a project
-                collaboration.
+                Whether you want to get in touch or just talk 
                 <br />
                 <strong>Feel free to connect with me</strong>
               </p>
