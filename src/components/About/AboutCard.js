@@ -12,7 +12,7 @@ function AboutCard() {
             <br />
              I am a Software Engineer with a passion for creating applications from ideas. 
             <br />
-             I am a former Middle School Orchestra teacher. After teaching online and seeing a shortage of software that can help teachers, I decided to do something about it. I began developing an application to help me solve my problem of organizing songs, students, and sets into logical catagories based on instruments needed and difficulty. This application is still in development, but please take a look at it in the projects page :)
+             I am a former Middle School Orchestra teacher. After teaching online and seeing a shortage of software that can help teachers, I decided to do something about it. I began developing an application to help me solve my problem of organizing songs, students, and sets into logical catagories based on instruments needed and difficulty. This application is still in development, but please take a look at it in the projects page.
             <br />
 
             <br />
@@ -26,7 +26,7 @@ function AboutCard() {
               <ImPointRight /> Play Video Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Play with my dog :)
+              <ImPointRight /> Play with my dog 
             </li>
             <li className="about-activity">
               <ImPointRight /> Watch Netflix
