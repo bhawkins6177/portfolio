@@ -14,13 +14,13 @@ export const PROJECTS = [
     url: "https://practical-lalande-875eed.netlify.app"
   },
 
-  {
-    image: WEATHER,
-    name: "Weather Application",
-    technologyUsed: "React, CSS",
-    description: "This is a basic web application I made a long time ago. It's very simple to use, just type in the city",
-    url: "https://bhawkins6177.github.io/weatherapp/"
-  }
+  // {
+  //   image: WEATHER,
+  //   name: "Weather Application",
+  //   technologyUsed: "React, CSS",
+  //   description: "This is a basic web application I made a long time ago. It's very simple to use, just type in the city",
+  //   url: "https://bhawkins6177.github.io/weatherapp/"
+  // }
 ];
 
 export const SKILLS = [
