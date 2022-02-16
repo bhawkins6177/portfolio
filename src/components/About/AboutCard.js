@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { ImArrowRight } from "react-icons/im";
 function AboutCard() {
   return (
     <Card className="quote-card-view">
@@ -20,16 +20,16 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Play Music
+            <ImArrowRight /> Play Music
             </li>
             <li className="about-activity">
-              <ImPointRight /> Play Video Games
+            <ImArrowRight /> Play Video Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Play with my dog 
+              <ImArrowRight /> Play with my dog 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watch Netflix
+            <ImArrowRight /> Watch Netflix
             </li>
           </ul>
         </blockquote>

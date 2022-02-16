@@ -10,12 +10,10 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
-            <Col md={6} className="home-header">
+            <Col md={12} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
+                Hi There!
+                
               </h1>
 
               <h1 className="heading-name">
@@ -31,27 +29,27 @@ function Home() {
                 <TypeWriter />
               </div>
             </Col>
-
-            <Col md={5}>
-              <img src={myImg} className="profile-pic" alt="avatar" />
-            </Col>
           </Row>
         </Container>
       </Container>
       <Container fluid className="home-about-section" id="about">
         <Container>
           <Row>
-            <Col md={12} className="home-about-social">
+            <Col md={6} className="home-about-social">
               <h1>Get in Touch</h1>
               <p>
                 {" "}
                 Whether you want to get in touch or just talk 
                 <br />
-                <strong>Feel free to connect with me</strong>
+                Feel free to connect with me
               </p>
               <SocialMedia />
             </Col>
+            <Col md={5}>
+              <img src={myImg} className="profile-pic" alt="avatar" />
+            </Col>
           </Row>
+          
         </Container>
       </Container>
     </section>
